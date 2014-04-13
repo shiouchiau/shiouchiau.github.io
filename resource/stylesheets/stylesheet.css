@@ -1,0 +1,186 @@
+body {
+	text-align: center;
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+/* whole page*/
+
+.banner {
+	height: 300px;
+	width: 100%;
+	background-color: #c896aa;
+}
+
+.banner img {
+	position: relative;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+}
+
+/* navigator */
+.nav {
+	height: 70px;
+	width: 100%;
+	background-color: #005695;
+}
+
+.nav ul {
+	margin: 0 auto;
+}
+
+.nav li {
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.nav li a {
+	text-decoration: none
+}
+
+/* personal brief */
+.main {
+	width: 100%;
+	height: 300px;
+
+}
+
+.objective {
+	height: 150px;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+
+.objective img {
+	float: left;
+	height: 150px;
+	width: 150px;
+	border-radius: 1px;
+	border: 5px solid #fff;
+}
+
+.objective p {
+	font-size: 20px;
+	text-align: left;
+}
+
+.torso {
+	width: 100%;
+	height: 358px;
+	background-color: #E0C266;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.torso #arrow-img, .arrow-next, .arrow-prev {
+	height: 50px;
+	width: 50px;
+}
+
+.timeline {
+	height: 40px;
+	width: 100%;
+	background-color: #8585AD;
+	padding: 23px 0 13px 0;
+	/*overflow: visible;*/
+}
+
+.timeline ul {
+	margin: 0;
+	font-size: 15px;
+	height: 30px;
+	border-bottom: 1px solid #799a93;
+	box-shadow: 1px 1px #bde4dc;
+	opacity: 0.5;
+	
+}
+
+.timeline ul li {
+	float: left;
+	padding-right: 60px;
+	position: relative;
+	left: 60%;
+	list-style-type: none;
+	cursor: pointer;
+	color: #00293D;
+}
+
+.now {
+	/*opacity: 1;*/
+	font-size: 28px;
+	top: -19px;
+	left: 20px;
+}
+
+.timeline ul li:after {
+	content: " ";
+	display: block;
+	height: 7px;
+	width: 7px;
+	background-color: #00293D;
+	border-radius: 50%;
+	position: relative;
+	top: 5px;
+	left: 13px;
+}
+
+.arrow-next, .arrow-prev {
+	position: absolute;
+}
+
+.arrow-prev {
+	top: 50%;
+	left: 0;
+	margin-left: 250px;
+	z-index: 2;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.arrow-next {
+	top: 50%;
+	left: 100%;
+	margin-left: -250px;
+	z-index: 2;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.experience {
+	width: 3144px;
+	height: 200px;
+	position: relative;
+	padding-top: 48px;
+	left: -336px;
+}
+
+.experience h2, h3, p {
+	text-align: left;
+}
+
+.experience img {
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+.experience>div {
+	/*display: inline-block;*/
+	float: left;
+	height: 200px;
+	width: 786px;
+	padding: 0px;
+	position: relative;
+	z-index: 0;
+	/*vertical-align: baseline;*/
+}
+
+
+	
