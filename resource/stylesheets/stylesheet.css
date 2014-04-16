@@ -8,7 +8,7 @@ body {
 /* whole page*/
 
 .header {
-	height: 800px;
+	height: 720px;
 	width: 100%;
 	background-color: #003D5C;
 	background-image: url(../images/header_photo.jpg);
@@ -19,9 +19,29 @@ body {
 	position: relative;
 	/*-webkit-background-size: cover;*/
 	/*min-width: 1024px;*/
-
 }
 
+#slogan {
+	width: 457px;
+	font-size: 18px;
+	font-family: serif;
+	/* font-variant: */
+	position: absolute;
+	top: 67%;
+	left: 34px;
+}
+
+#slogan p {
+	margin: 0;
+}
+
+#slogan span {
+	float: left;
+	padding-right: 3px;
+	font-size: 36px;
+
+}
+/*
 .banner #head {
 	position: relative;
 	height: 150px;
@@ -29,11 +49,11 @@ body {
 	border-radius: 50%;
 	border: 5px solid #fff;
 }
-
+*/
 /* navigator */
 .nav {
 	position: absolute;
-	top: 80%;
+	top: 78%;
 	height: 109px;
 	width: 100%;
 	background-color: #14141F;

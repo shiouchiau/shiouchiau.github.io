@@ -1,8 +1,14 @@
 
 $(function() {
+	//navigator moving
+	var $scrollingDiv = $(".nav");
+  	$(window).scroll(function(){ 
+   		$scrollingDiv.stop().animate({"marginTop": ($(window).scrollTop())});     	
+ 	});
+
 	//navigator scroll
 	$("#navObjective").click(function() {
-		$("html, body").animate({scrollTop: "#arrow-img"}, 400);
+		$("html, body").animate({scrollTop: "720px"}, 400);
 	});
 	$("#navExperience").click(function() {
 		$("html, body").animate({scrollTop: "500px"}, 400);
@@ -14,8 +20,8 @@ $(function() {
 		$("html, body").animate({scrollTop: "1000px"}, 400);
 	});
 
-
-
+	  
+ 	
 	// timelime
 	var totalNum = Math.floor( $(".experience").width() / $(".experience>div").width() );
 	var statusNum = 1;
