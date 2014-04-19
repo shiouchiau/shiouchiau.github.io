@@ -2,7 +2,8 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="resource/stylesheets/stylesheet.css">
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="text/javascript" src="resource/includes/jquery-1.11.0.js"></script>
 	<script type="text/javascript" src="resource/includes/all.js"></script>
@@ -12,6 +13,10 @@
 	<div class="page">
 		<div class="header">
 			<div class="banner">
+				<div id="header-title">
+					<h1>SHIOUCHIAU's<br>
+						SKY</h1>
+				</div>
 				<div id="slogan">
 					<span>T</span>
 					<p>he best sunset I've ever seen, snapped while I'd been fulfilling millitary service in Longmen, Penghu, Taiwan, was such a fantastic scenes I still remember that up to now.</p>
@@ -24,16 +29,23 @@
 					<li id="navObjective"><span>OBJECTIVE</span></li>
 					<li id="navExperience"><span>EXPERIENCE</span></li>
 					<li id="navPublication"><span>PUBLICATION</span></li>
-					<li id="navOthers"><span>OTHERS</span></li>
+					<li id="navOthers"><span>PORTFOLIO</span></li>
 				</ul>
 			</div>
 		</div>
 		<div class="main">
+			<div class=social-logo>
+					<a href="http://www.linkedin.com/profile/view?id=272097856&trk=nav_responsive_tab_profile"><img src="resource/images/linkedin-icon.png"></a>
+					<a href="shiouchiau@gmail.com"><img src="resource/images/mail-icon.png"></a>
+					<a href="https://github.com/shiouchiau"><img src="resource/images/github-icon.png"></a>
+				</div>
 			<div class="objective">
 				<img src="resource/images/myphoto.jpg">
-				<p>Familiar with web application development (HTML, CSS, JavaScript...).<br>
-					Strong background on antenna designs, RF/microwave component planning and wave propagation channel simulation.<br>
-					High abilities of logic analysis and quick learning.
+				<p><span>H</span>ey! I'm Shiou-Chiau Jan, an outgoing and easygoing man from Taipei, Taiwan.<br><br>
+					I'm interested in photography, sports, fasion trend and new things around me.
+					In terms of my background, I got my master's degree in communacation engineering, skilled in antenna designs and propagation channel modeling. Besides, I have a keen passion for web front-end development as well.<br><br>
+					I'm good at web application development like HTML, CSS, JaveScript, jQuery, and still sharpen my skills on that way.
+					If you wanna know me better, welcome to see my Linkedin and portfolio above, or contact me by email at shiouchiau@gmail.com.	
 				</p>
 				
 			</div>
@@ -46,50 +58,64 @@
 					<li>2012</li>
 					<li>2013</li>
 				</ul>
-			</dic>
+			</div>
 			<div class="arrow-prev">
 				<img id="arrow-img" src="resource/images/arrow-icon-left.png">
 			</div>
 			<div class="experience">
 				<div class="graduate" style="opacity: 0">
-					<img src="resource/images/ncu_logo.jpg">
-					<h2>National Central University</h2>
-					<h3>Bachelor's Degree in Electrical Engineering</h3>
+					<img src="resource/images/ncu_logo.png">
+					<div id="paragraph">
 					<p>
-						GPA: 3.7/4 (Overall)<br>
-						Overall rank: 11/119<br>
-						National Central University Presidential Award
+					<span id="comName">National Central University</span><br>
+					<span id="comSubName">Bachelor's Degree in Electrical Engineering</span><br><br>
 					</p>
+					<ul>
+						<li>GPA: 3.7/4 (Overall)</li>
+						<li>Overall rank: 11/119</li>
+						<li>National Central University Presidential Award</li>
+					</ul>
+					</div>
 				</div> 
  				<div class="undergrad" style="opacity: 1">
 					<img src="resource/images/nctu_logo.gif">
-					<h2>National Chiao Tung University</h2>
-					<h3>
-						Master's Degree in Communications Engineering<br>
-						Wave Propagation and Scattering Lab
-					</h3>
+					<div id="paragraph">
 					<p>
-						GPA: 3.89/4<br>
-						Advisor: Prof. Jenn-Hwan Tarng<br>
-						Thesis: Ultra-wideband On-Body Dynamic Radio Channel Measurement and Modeling
+					<span id="comName">National Chiao Tung University<br></span>
+					<span id="comSubName">Master's Degree in Communications Engineering<br>
+					Wave Propagation and Scattering Lab</span><br><br>
 					</p>
+					<ul>
+						<li>GPA: 3.89/4</li>
+						<li>Advisor: Prof. Jenn-Hwan Tarng</li>
+						<li>Thesis:<br>Ultra-wideband On-Body Dynamic Radio Channel Measurement and Modeling</li>
+					</ul>
+					</div>
 				</div>
 				<div class="military" style="opacity: 0">
 					<img src="resource/images/coast_guard_logo.svg">
-					<h2>Coast Guard Administration, Taiwan</h2>
-					<h3>Second Lieutenant, Platoon Leader, Reserve Warfare Commander (full-time)</h3>
+					<div id="paragraph">
 					<p>
-						IT advised, maritime affair coordinated, duty managed and supervised.
+					<span id="comName">Coast Guard Administration, Taiwan</span><br>
+					<span id="comSubName">Second Lieutenant, Platoon Leader, Reserve Warfare Commander (full-time)</span><br><br>
 					</p>
+					<ul>
+						<li>IT advised, maritime affair coordinated, duty managed and supervised.</li>
+					</ul>
+					</div>
 				</div>
 				<div class="intern" style="opacity: 0">
 					<img src="resource/images/itri_logo.jpg">
-					<h2>Industrial Technology Research Institute</h2>
-					<h3>Research Assistant (internship)</h3>
+					<div id="paragraph">
 					<p>
-						Propagation wave measured and analyzed in specific environment.<br>
-						Communication system analyzed and researched.
+					<span id="comName">Industrial Technology Research Institute</span><br>
+					<span id="comSubName">Research Assistant (internship)</span><br><br>
 					</p>
+					<ul>
+						<li>Propagation wave measured and analyzed in specific environment.</li>
+						<li>Communication system analyzed and researched.</li>
+					</ul>
+					</div>
 				</div>
 			</div>
 			<div class="arrow-next">
@@ -97,12 +123,22 @@
 			</div>
 		</div>
 		<div class="publish">
-
+			<div id="pubParagraph">
+					<p>
+					<a id="ieeeLink" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6683069&isnumber=6750022"><span id="comName">A Reduced-Size Wide Slot Antenna for Enhancing Along-Body Radio Propagation in UWB On-Body Communications<br></span></a>
+					<span id="comSubName">Antennas and Propagation, IEEE Transactions on, vol.62, no.3, pp.1194,1203, March 2014<br>
+					Wen-Tron Shay; <span id="myName">Shiou-Chiau Jan</span>; Jenn-Hwan Tarng</span><br>
+					</p>
+					<ul>
+						<li>A directional reduced-size wide slot antenna is designed to be worn on a body.</li>
+						<li>The antenna boresight is naturally directed along the body surface and most of the energy can be efficiently transmitted by direct or diffracted waves.</li>
+						<li>An approach to estimate the variation range of path loss in real environments is proposed.</li>
+					</ul>
+					</div>
 		</div>
-		<div class="projects">
-			
+		<div class="footer">
+			<p>&copy Shiou-Chiau Jan, 2014</p>
 		</div>
-		<div class="footer"></div>
 	</div>
 
 </body>

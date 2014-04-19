@@ -1,23 +1,21 @@
 
 $(function() {
+/*
 	//navigator moving
 	var $scrollingDiv = $(".nav");
   	$(window).scroll(function(){ 
    		$scrollingDiv.stop().animate({"marginTop": ($(window).scrollTop())});     	
  	});
-
+*/
 	//navigator scroll
 	$("#navObjective").click(function() {
 		$("html, body").animate({scrollTop: "720px"}, 400);
 	});
 	$("#navExperience").click(function() {
-		$("html, body").animate({scrollTop: "500px"}, 400);
+		$("html, body").animate({scrollTop: "1100px"}, 400);
 	});
 	$("#navPublication").click(function() {
-		$("html, body").animate({scrollTop: "700px"}, 400);
-	});
-	$("#navOthers").click(function() {
-		$("html, body").animate({scrollTop: "1000px"}, 400);
+		$("html, body").animate({scrollTop: "1550px"}, 400);
 	});
 
 	  
@@ -39,7 +37,7 @@ $(function() {
 				if ( statusNum === 1) {
 					$(".arrow-prev").css("opacity", "1");
 				}
-			$(".experience").animate({left: "-=786"}, 700);
+			$(".experience").animate({left: "-=986"}, 700);
 			$(".experience>div").eq(statusNum).animate({opacity:1}, 700);
 			$(".experience>div").eq(statusNum-1).animate({opacity:0}, 700);
 			runStatus();
@@ -55,7 +53,7 @@ $(function() {
 				if ( statusNum === totalNum-2) {
 					$(".arrow-next").css("opacity", "1");
 				}
-			$(".experience").animate({left: "+=786"}, 700);
+			$(".experience").animate({left: "+=986"}, 700);
 			$(".experience>div").eq(statusNum).animate({opacity:1}, 700);
 			$(".experience>div").eq(statusNum+1).animate({opacity:0}, 700);
 			runStatus();
