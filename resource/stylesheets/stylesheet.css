@@ -164,7 +164,7 @@ body {
 	box-shadow: 2px 2px #B39B52;
 }
 
-.torso #arrow-img, .arrow-next, .arrow-prev {
+.torso .arrow-img, .arrow-next, .arrow-prev {
 	height: 50px;
 	width: 50px;
 }
@@ -257,16 +257,16 @@ body {
 	width: 650px;
 }
 
-#comName {
+.comName {
 	font-weight: bold;
 	font-size: 28px;
 }
 
-#comSubName {
+.comSubName {
 	font-style: italic;
 }
 
-#paragraph ul {
+.paragraph ul {
 	list-style-type: square;
 	margin: 0;
 }
